@@ -8,6 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import ConfusionMatrixDisplay
 import pickle
 import base64
+import matplotlib.pyplot as plt
 
 # Set page title and icon
 st.set_page_config(page_title = "Employee Attrition Predictor", page_icon = ":bar_chart:")
@@ -161,7 +162,8 @@ if page == "⚙️ Modeling":
             # Confusion Matrix
             st.subheader("Confusion Matrix")
             ConfusionMatrixDisplay.from_estimator(model, X_test, y_test, cmap='YlOrBr_r')
-            st.pyplot()
+            CM_fig = plt.gcf()
+            st.pyplot(CM_fig)
     if st.button("Download Model"):
         with open("trained_model.pkl", "wb") as model_file:
             pickle.dump(model, model_file)
