@@ -10,7 +10,7 @@ Definitions for each value set in the data: HERE (https://www.kaggle.com/dataset
 
 ### Executive Summary
 
-In exploring the reasons behind employee departures, I uncovered some noteworthy insights. Notably, attrition rates decreasing as employees progress in their careers, while those who don't travel frequently exhibit greater job stability. Monthly income also emerged as a factor influencing retention. I delved into attrition dynamics across gender, job roles, education, and marital status, employing statistical tools like violin plots and dot scatter analyses. The culmination of this effort resulted in the development of a practical tool using Logistic Regression, a sophisticated computer model, aimed at aiding HR in informed decision-making. To enhance accessibility, we complemented this with a Streamlit app, providing additional visualizations and predictive outcomes.
+In exploring the reasons behind employee departures, we uncovered some noteworthy insights. Notably, attrition rates decreasing as employees progress in their careers, while those who don't travel frequently exhibit greater job stability. Monthly income also emerged as a factor influencing retention. We delved into attrition dynamics across gender, job roles, education, and marital status, employing statistical tools like violin plots and dot scatter analyses. The culmination of this effort resulted in the development of a practical tool using Logistic Regression, a sophisticated computer model, aimed at aiding HR in informed decision-making. To enhance accessibility, we complemented this with a Streamlit app, providing additional visualizations and predictive outcomes.
 
 ### Steps Taken: Cleaning, EDA, & Modeling
 
@@ -52,7 +52,7 @@ Non-Travelers: Demonstrating an exceptionally high retention rate of approximate
 
 These findings accentuate that non-traveling employees exhibit the strongest job stability, followed by rare travels and then frequent travelers. Understanding these dynamics is critical for informed decision-making in workforce management.
 
-### Conclusions/Recommendations
+### Conclusions
 
 In our examination of attrition patterns, we discovered that certain demographic factors significantly influence employee turnover. Employees with shorter tenures, younger ages, and lower incomes are generally more susceptible to attrition. However, it is imperative to recognize that these are overarching trends, and individual circumstances may deviate from these patterns. Consequently, our recommendations emphasize the importance of tailored retention strategies that consider the unique situations of each employee.
 
@@ -66,9 +66,7 @@ In terms of modeling performance, our predictive efforts using Logistic Regressi
 
 To enhance ongoing analysis and prediction, we developed a Streamlit app. This tool allows for dynamic exploratory data analysis (EDA) and prediction based on employee features, offering a practical and accessible means for HR decision-making.
 
-### Additional Information
-
-Recommendations:
+### Recommendations:
 
 Focus On:
 
